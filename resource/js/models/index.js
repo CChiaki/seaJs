@@ -5,9 +5,9 @@ define(function(require, exports, modules) {
 			!!fn & fn();
 		}
 	};
+
 	active.init(function() {
 		$('body').css('min-height',$('html').height());
 		$('body').show();
 	});
-
 })
