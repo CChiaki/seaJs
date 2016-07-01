@@ -1,0 +1,198 @@
+.mui-content-3 {
+	background: rgb(254, 255, 255);
+	padding-bottom: 51px;
+	padding-top: 1rem !important;
+}
+
+.model-reception {}
+
+.model-right {
+	float: left;
+	width: 5rem;
+}
+
+.model-left {
+	float: left;
+	width: 1rem;
+}
+
+.model-left .line {
+	width: .1rem;
+	margin-left: 0.4rem;
+	height: 3.8rem;
+	position: relative;
+	background-color: rgb(202, 203, 204);
+}
+
+.model-left .line i {
+	position: absolute;
+	width: 0.5rem;
+	height: 0.5rem;
+	background: url(../image/End@2x.png) left center /0.5rem 0.5rem no-repeat;
+	left: -0.2rem;
+	/*top: 0.3rem;*/
+}
+.model-reception.over .model-left .line i{
+	background: url(../image/End@2x.png) left center /0.5rem 0.5rem no-repeat;
+}
+/*.model-reception.over .model-left .line{
+	background: none;
+}*/
+
+.model-left .line.unclose i{
+	background: url(../image/invalid@2x.png) left center /0.5rem 0.5rem no-repeat;
+}
+.model-left .line.over{
+	background: none;
+}
+.model-left .line i{
+	background: url(../image/undone@2x.png) left center /0.5rem 0.5rem no-repeat;
+}
+
+
+.model-one {
+	/*margin: 0.2rem 0 0.3rem;*/
+	background-color: rgb(240, 241, 242);
+	padding: 0.2rem;
+}
+
+.model-header {
+	height: 0.8rem;
+	line-height: 0.8rem;
+	margin-bottom: 0.3rem;
+}
+
+.model-header a {
+	display: inline-block;
+	float: right;
+	line-height: 0.8rem;
+	height: 0.8rem;
+	width: 2rem;
+	text-align: center;
+	color: white;
+	border-radius: 0.4rem;
+	background: rgb(50, 207, 130);
+}
+
+.model-reception.over .model-header a {
+	display: inline-block;
+	float: right;
+	line-height: 0.8rem;
+	height: 0.8rem;
+	width: 1.8rem;
+	text-align: center;
+	color: white;
+	border-radius: 0.4rem;
+	background: rgb(226, 57, 60);
+}
+
+.model-header span {
+	font-size: 0.3rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	display: inline-block;
+	padding-left: 0.7rem;
+}
+
+.model-header .type1 {
+	background: url(../image/type1@2x.png) left center /0.66rem 0.66rem no-repeat;
+}
+
+/*.model-reception.over .model-header .type1 {
+	background: url(../image/type1-2@2x.png) left center /0.66rem 0.66rem no-repeat;
+}*/
+
+.model-header .type2 {
+	background: url(../image/type2@2x.png) left center /0.66rem 0.66rem no-repeat;
+}
+
+/*.model-reception.over .model-header .type2 {
+	background: url(../image/type2-2@2x.png) left center /0.66rem 0.66rem no-repeat;
+}*/
+
+.model-header .type3 {
+	background: url(../image/type3@2x.png) left center /0.66rem 0.66rem no-repeat;
+}
+
+/*.model-reception.over .model-header .type3 {
+	background: url(../image/type3-2@2x.png) left center /0.66rem 0.66rem no-repeat;
+}*/
+
+.model-header .type4 {
+	background: url(../image/type4@2x.png) left center /0.66rem 0.66rem no-repeat;
+}
+
+/*.model-reception.over .model-header .type4 {
+	background: url(../image/type4-2@2x.png) left center /0.66rem 0.66rem no-repeat;
+}*/
+
+.model-header .type5 {
+	background: url(../image/type5@2x.png) left center /0.66rem 0.66rem no-repeat;
+}
+
+/*.model-reception.over .model-header .type5 {
+	background: url(../image/type5-2@2x.png) left center /0.66rem 0.66rem no-repeat;
+}*/
+
+.model-header .type6 {
+	background: url(../image/type6@2x.png) left center /0.66rem 0.66rem no-repeat;
+}
+
+/*.model-reception.over .model-header .type6 {
+	background: url(../image/type6-2@2x.png) left center /0.66rem 0.66rem no-repeat;
+}*/
+
+.model-header .type7 {
+	background: url(../image/type7@2x.png) left center /0.66rem 0.66rem no-repeat;
+}
+
+/*.model-reception.over .model-header .type7 {
+	background: url(../image/type7-2@2x.png) left center /0.66rem 0.66rem no-repeat;
+}*/
+
+.model-header .type8 {
+	background: url(../image/type8@2x.png) left center /0.66rem 0.66rem no-repeat;
+}
+
+/*.model-reception.over .model-header .type8 {
+	background: url(../image/type8-2@2x.png) left center /0.66rem 0.66rem no-repeat;
+}*/
+
+.model-header .type9 {
+	background: url(../image/type9@2x.png) left center /0.66rem 0.66rem no-repeat;
+}
+
+/*.model-reception.over .model-header .type9 {
+	background: url(../image/type9-2@2x.png) left center /0.66rem 0.66rem no-repeat;
+}*/
+
+.model-header .type10 {
+	background: url(../image/type10@2x.png) left center /0.66rem 0.66rem no-repeat;
+}
+
+/*.model-reception.over .model-header .type10 {
+	background: url(../image/type10-2@2x.png) left center /0.66rem 0.66rem no-repeat;
+}*/
+
+.model-time .datePick {
+	float: left;
+	font-size: 0.24rem;
+	width: 2rem;
+}
+
+.model-time .timePick {
+	float: right;
+	width: 2rem;
+	font-size: 0.24rem;
+}
+
+.model-desc {}
+
+.model-desc textarea {
+	height: 0.8rem;
+	line-height: 0.6rem;
+	font-size: 0.24rem;
+	padding: 0.1rem 0.2rem;
+	margin-bottom: 0;
+	overflow: hidden;
+}

@@ -1,0 +1,91 @@
+.mui-content{
+	padding-bottom: 55px;
+}
+.top-header {
+	margin: 0.4rem 0.2rem 0.2rem 0.2rem;
+	line-height: 0.44rem;
+	display: block;
+	border-bottom: 1px dashed #ccc;
+	padding-bottom: 0.1rem;
+}
+
+.top-header span {
+	float: left;
+	padding-left: 0.44rem;
+	background: url(../image/prompt@2x.png) top left /0.44rem 0.44rem no-repeat;
+	font-size: 0.28rem;
+	color: #333;
+	height: 0.44rem;
+	line-height: 0.44rem;
+	display: block;
+}
+
+.top-header span i {
+	font-style: normal;
+	color: rgb(226, 57, 60);
+}
+
+.top-header a {
+	float: right;
+	height: 0.44rem;
+	line-height: 0.44rem;
+	padding-left: 0.44rem;
+	font-size: 0.28rem;
+	margin-right: 0rem;
+	color: #666;
+	background: url(../image/Refresh@2x.png) left center /0.44rem 0.44rem no-repeat;
+}
+
+.chart-one {
+	margin: 0.2rem;
+	padding: 0.2rem;
+	background: rgb(244, 245, 246);
+	border-radius: 5px;
+}
+
+.chart-one h2 {
+	text-align: center;
+	font-size: 0.32rem;
+	height:0.8rem;
+	line-height: 0.8rem;
+	background: url(../image/line@2x.png) center center /100% 100% no-repeat;
+}
+
+.chart-body {
+	margin-top: -0.5rem;
+}
+.chart-body .chart-image {
+	width: 2.6rem;
+	height: 2.6rem;
+}
+.chart-body .chart-notice {
+	width: 2.9rem;
+	height:2.6rem;
+}
+.chart-one:nth-child(odd) .chart-image{
+	float: left;
+}
+.chart-one:nth-child(odd) .chart-notice{
+	float: right;
+}
+.chart-one:nth-child(even) .chart-image{
+	float: right;
+}
+.chart-one:nth-child(even) .chart-notice{
+	float: left;
+}
+.chart-body .chart-image img{
+	max-width: 100%;
+}
+.chart-body .chart-notice p{
+	height:0.5rem;
+	line-height: 0.5rem;
+	padding-left:1rem;
+	background: url(../image/diamond1@2x.png) 0.6rem center /0.22rem 0.22rem no-repeat;
+}
+.chart-body .chart-notice p:first-child{
+	margin-top:1rem;
+}
+.chart-body .chart-notice p:last-child{
+	background: url(../image/diamond2@2x.png) 0.6rem center /0.22rem 0.22rem no-repeat;
+}
