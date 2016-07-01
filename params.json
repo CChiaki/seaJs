@@ -1,0 +1,6 @@
+{
+  "name": "Seajs",
+  "tagline": "",
+  "body": "web-frontend\r\n========\r\n\r\nweb-frontend\r\n## 介绍\r\nweb-frontend 一个基于seajs的前端框架\r\n\r\n\r\n\r\n\r\n##目录介绍\r\n```dart\r\n-----------------------------\r\n--common 插件目录\r\n-----autocomplete\r\n-----blockUI\r\n-----charts\r\n-----cookie\r\n-----dataPicker\r\n-----dataSheet\r\n-----dialog\r\n-----expression\r\n-----form\r\n-----linkage\r\n-----Location\r\n-----MsgBox\r\n-----page\r\n-----pop\r\n-----swfupload\r\n-----template\r\n-----timepickerAddon\r\n--libs 基本库\r\n-----backbone\r\n-----d3\r\n-----Highcharts\r\n-----html5\r\n-----jquery\r\n-----json\r\n-----seajs\r\n-----underscore\r\n--models 页面逻辑\r\n-----\r\n--test 测试页面\r\n------\r\n```\r\n\r\n##框架的使用\r\n```js\r\n<script src=\"http://xxxx.com/app/libs/seajs/sea2.0.0.js\"></script>\r\n<script>\r\n    seajs.use(\"http://xxxx.com/app/router.js\", function(route) {\r\n        route.load(\"cookie#, test/index\");\r\n    });\r\n</script>\r\n```\r\n\r\n```js\r\n<script type=\"text/javascript\" src=\"http://xxxxx.com/app/libs/seajs/sea2.0.0.js\" data-main=\"http://xxxxx.com/app/router.js\"></script>\r\n```\r\n\r\n##组件介绍\r\n详细的组件使用介绍，请参考各个组件的git",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
