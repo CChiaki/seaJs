@@ -1,0 +1,226 @@
+/*css reset*/
+
+html {
+	color: #000;
+	font-family: "微软雅黑", arial, sans-serif;
+	font-size: 12px;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+em,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+select,
+p,
+blockquote,
+th,
+td {
+	margin: 0;
+	padding: 0;
+	font-style: normal;
+	outline: none;
+}
+
+body {
+	display: block;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+fieldset,
+img {
+	border: 0
+}
+
+address,
+button,
+caption,
+cite,
+code,
+dfn,
+em,
+input,
+optgroup,
+option,
+select,
+strong,
+textarea,
+th,
+var {
+	font: inherit
+}
+
+del,
+ins {
+	text-decoration: none
+}
+
+li {
+	list-style: none
+}
+
+caption,
+th {
+	text-align: left
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	font-weight: normal
+}
+
+q:before,
+q:after {
+	content: ''
+}
+
+abbr,
+acronym {
+	border: 0;
+	font-variant: normal
+}
+
+sup {
+	vertical-align: baseline
+}
+
+sub {
+	vertical-align: baseline
+}
+
+legend {
+	color: #000
+}
+
+
+/*
+ * 清楚浮动层
+ */
+
+.clear {
+	clear: both;
+}
+
+.clearFix:after {
+	clear: both;
+	content: ".";
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+.clearFix {
+	*zoom: 1;
+}
+
+pre {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+pre {
+	margin-left: 2em;
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+a:hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+input:focus {
+	border-color: #66afe9;
+	outline: 0;
+}
+
+html {
+	min-height: 100%;
+	background: #ccc;
+}
+
+html:after {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	top: 50%;
+	left: 50%;
+	margin: -20px 0 0 -20px;
+	background: url(image-base/loading.png) center center/50px 50px no-repeat;
+	-webkit-animation: rotateIn 1s linear infinite;
+	-moz-animation: rotateIn 1s linear infinite;
+	animation: rotateIn 1s linear infinite;
+	z-index:-999;
+}
+body{
+	display: none;
+}
+@-webkit-keyframes rotateIn {
+	0% {
+		-webkit-transform-origin: center center;
+		-webkit-transform: rotate(-360deg);
+	}
+	100% {
+		-webkit-transform-origin: center center;
+		-webkit-transform: rotate(0);
+	}
+}
+
+@-moz-keyframes rotateIn {
+	0% {
+		-moz-transform-origin: center center;
+		-moz-transform: rotate(-360deg);
+	}
+	100% {
+		-moz-transform-origin: center center;
+		-moz-transform: rotate(0);
+	}
+}

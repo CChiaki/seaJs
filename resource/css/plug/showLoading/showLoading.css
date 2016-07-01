@@ -1,0 +1,17 @@
+.loading-indicator {
+	height: 100px;
+	width: 100px;
+	background: url( '/resources/showLoading/images/loading.gif' );
+	background-repeat: no-repeat;
+	background-position: center center;background-size: contain;
+}
+
+.loading-indicator-overlay {
+	background-color: #000;
+	opacity: 0.3;
+	filter: alpha(opacity = 60);
+	overflow: hidden;
+}
+.loading-over-hiden{
+	overflow: hidden;
+}
