@@ -18,14 +18,11 @@ seajs.config({
 
 	plugins: [''],
 
-	preload: [document.all ? 'libs/json/ ' : "", (function() {
-		var pageName = location.pathname.match(/\/([0-9a-zA-Z\-\_]*).html/)[1];
-		return 'css/pages/' + pageName + '.css';
-	})()],
+	preload: [document.all ? 'libs/json/ ' : "", "css/pages/index.css"],
 
 	debug: false,
 
-	base: '/seaJs/resource/',//根据项目配置对应的请求路劲
+	base: '/seaJs/seaJs/resource/',//根据项目配置对应的请求路劲
 
 	charset: 'utf-8'
 });
